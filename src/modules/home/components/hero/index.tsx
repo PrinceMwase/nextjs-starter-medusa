@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="md:h-[75vh] w-full border-b border-ui-border-base relative bg-ui-bg-subtle">
     
       <video autoPlay loop muted poster="/banner.jpg" className="z-10 inset-0 w-full h-full flex flex-col">
-        <source src="/videso.mp4" type="video/mp4" />
+        <source src="/video.mp4" type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       {/* <div className="absolute inset-0 z-10 flex flex-col justify-center items-center text-center small:p-32 gap-6">
