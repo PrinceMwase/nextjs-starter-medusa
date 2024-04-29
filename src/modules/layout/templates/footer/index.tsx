@@ -4,6 +4,7 @@ import { getCategoriesList, getCollectionsList } from "@lib/data"
 
 import LocalizedClientLink from "@modules/common/components/localized-client-link"
 import MedusaCTA from "@modules/layout/components/medusa-cta"
+import Image from "next/image"
 
 export default async function Footer() {
   const { collections } = await getCollectionsList(0, 6)
@@ -18,7 +19,13 @@ export default async function Footer() {
               href="/"
               className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
             >
-              Skuva Fashions
+             <Image
+                src={"/sf.png"}
+                alt="Picture of the author"
+                
+                width={100}
+                height={100}
+              />
             </LocalizedClientLink>
           </div>
           <div className="text-small-regular gap-10 md:gap-x-16 grid grid-cols-2 sm:grid-cols-3">
