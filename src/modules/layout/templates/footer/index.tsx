@@ -20,11 +20,11 @@ export default async function Footer() {
               className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
             >
              <Image
-                src={"/sf.png"}
+                src={"/SF.jpg"}
                 alt="Picture of the author"
                 
-                width={100}
-                height={100}
+                width={101}
+                height={74}
               />
             </LocalizedClientLink>
           </div>
